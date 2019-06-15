@@ -1,0 +1,20 @@
+.progress-bar {
+    background: #fefefe;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    height: 10px;
+    max-width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+
+.progress {
+    background: #8e9eab;
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+    background: linear-gradient(to right, #eef2f3, #8e9eab); 
+    border-radius: 3px;
+    height: 10px;
+    width: 0;
+}
