@@ -1,3 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background: steelblue;
+    padding: 4em;
+}
+
+
 .progress-bar {
     background: #fefefe;
     border-radius: 3px;
@@ -17,4 +28,18 @@
     border-radius: 3px;
     height: 10px;
     width: 0;
+}
+
+.wrap {
+    padding: 0 5%;
+    max-width: 600px;
+}
+
+
+@media(min-width: 650px) {
+    .wrap {padding: 0 7.5%;}
+}
+
+@media(min-width: 992px) {
+    .wrap{padding: 0 15%};
 }
